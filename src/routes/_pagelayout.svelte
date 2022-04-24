@@ -15,6 +15,41 @@
 </div>
 
 <style>
+ div > :global(section) {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     grid-template-rows: repeat(1fr);
+     grid-template-areas:
+         "main sidebar"
+         "footer footer";
+ }
+ div :global(blockquote) {
+     grid-area: sidebar;
+     text-align: right;
+     margin: 0;
+     border: none;
+ }
+ div :global(section section) {
+     grid-column-start: main;
+     grid-column-end: main;
+ }
+ div :global(section section:nth-child(4)) {
+     grid-column-start: sidebar;
+     grid-column-end: sidebar;
+     text-align: right;
+ }
+ div :global(section section:nth-child(5)) {
+     grid-row-start: 3;
+ }
+ div :global(section section:nth-child(6)) {
+     grid-column-end: footer;
+ }
+ div :global(:is(p, li)) {
+     margin-bottom: .2em;
+ }
+ div :global(ul) {
+     margin-bottom: 1.5rem;
+ }
  div {
      width: 8.5in;
      min-height: 11in;
