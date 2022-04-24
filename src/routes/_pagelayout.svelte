@@ -17,7 +17,7 @@
 <style>
  div {
      width: 8.5in;
-     height: 11in;
+     min-height: 11in;
      border: 1px solid transparent;
      padding: 1cm;
  }
