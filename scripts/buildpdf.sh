@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
+
+
+
 CHROME=$(which chrome 2>/dev/null) || CHROME=$(which chromium) || CHROME=$(which chromium-browser)
 
 mkdir -p docs
 echo '<!-- generated '`date +%s`' -->' > docs/index.html
+echo '<meta http-equiv="Refresh" content="0; url='https://neonfuz.xyz'" />' >> docs/index.html
 pnpm run dev &
 SERVER_PID=$!
 sleep 3
