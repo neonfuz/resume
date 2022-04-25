@@ -5,22 +5,29 @@ github: ['https://github.com/neonfuz', 'github.com/neonfuz']
 phone: '(707) 362 - 5705'
 location: 'Milwaukee WI'
 summary: Well rounded full-stack software developer with a focus on web
-
 ---
 
 
 Skills
 ----
 
+**Web Frontend**
 * HTML, CSS, Javascript, SVG
 * React, Svelte, Angular, jQuery
+
+**Databases**
 * MongoDB, CouchDB, Redis
-* 15 years Linux experience
+
+**System Administration**
+* 15+ years Linux
 * AWS, S3, Docker
+
+**Systems Programming**
 * C, C++, Rust, GDB
 * Java, C#, Python
 * Unity3D, Android
 * Nix, Haskell
+
 
 Experience
 ----------
