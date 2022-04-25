@@ -3,6 +3,7 @@
 CHROME=$(which chrome 2>/dev/null) || CHROME=$(which chromium)
 
 mkdir -p docs
+echo '<!-- generated '`date +%s`' -->' > docs/index.html
 #pnpm run dev &
 #SERVER_PID=$!
 #sleep 3
