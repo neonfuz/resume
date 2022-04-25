@@ -39,6 +39,9 @@
      display: flex;
      justify-content: space-between;
  }
+ heading ul {
+     text-align: right;
+ }
  .Page > :global(section) {
      display: flex;
      flex-direction: column;
@@ -48,15 +51,10 @@
      margin: 0;
      border: none;
  }
- .Page :global(section) {
- }
  .Page :global(section:nth-child(2)) {
-     text-align: right;
      float: right;
  }
- heading ul,
- .Page :global(section:nth-child(2) ul) {
-     text-align: right;
+ .Page :global(ul) {
      list-style: none;
  }
  heading,
