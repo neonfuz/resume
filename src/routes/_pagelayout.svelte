@@ -2,7 +2,6 @@
  import 'milligram';
  export let title;
  export let summary;
- export let website;
  export let email;
  export let github;
  export let phone;
@@ -65,13 +64,14 @@
      margin-bottom: .2em;
  }
  .Page :global(ul) {
-     margin-bottom: 1.5rem;
+     margin-bottom: 1.4rem;
  }
  .Page {
      width: 8.5in;
      min-height: 11in;
      border: 1px solid transparent;
      padding: 1cm;
+     padding-bottom: 0; /* Stop generating pg2 */
  }
  @media screen {
      .Page {
