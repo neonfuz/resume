@@ -1,10 +1,11 @@
 ---
 title: Sage Raflik
-email: 'raflik.sage@gmail.com'
-github: ['https://github.com/neonfuz', 'github.com/neonfuz']
-phone: '(707) 362 - 5705'
-location: 'Milwaukee WI'
 summary: Well rounded full-stack software developer with a focus on web
+email: raflik.sage@gmail.com
+github: ['https://github.com/neonfuz', 'github.com/neonfuz']
+website: ['https://neonfuz.xyz', 'neonfuz.xyz']
+phone: (707) 362 - 5705
+location: Milwaukee WI
 ---
 
 
@@ -32,7 +33,7 @@ Skills
 Experience
 ----------
 
-**Warhog Financials** | 2015 – 2018, 2019 - 2020
+**Warhog Financials** | 2015 - 2018, 2019 - 2020
 - Lead Full-Stack Developer for web accounting software
 
 **Eden Farms** | 2018 - 2019 

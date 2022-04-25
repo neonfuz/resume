@@ -2,6 +2,7 @@
  import 'milligram';
  export let title;
  export let summary;
+ export let website;
  export let email;
  export let github;
  export let phone;
@@ -10,21 +11,18 @@
 
 <svelte:head>
     <title>{title}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 
 <div class="Page">
     <heading>
-<div>
-        <h1>
-            {title}
-        </h1>
-        <p>
-            {summary}
-        </p>
-</div>
+        <div>
+            <h1>
+                {title}
+            </h1>
+            <p>
+                {summary}
+            </p>
+        </div>
         <ul>
             <li><a href="mailto:{email}">{email}</a></li>
             <li><a href="{github[0]}">{github[1]}</a></li>
@@ -36,6 +34,7 @@
 </div>
 
 <style>
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
  heading {
      display: flex;
      justify-content: space-between;
