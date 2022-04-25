@@ -1,16 +1,13 @@
 ---
-title: 'Sage Raflik's Resume'
+title: Sage Raflik
+email: 'raflik.sage@gmail.com'
+github: ['https://github.com/neonfuz', 'github.com/neonfuz']
+phone: '(707) 362 - 5705'
+location: 'Milwaukee WI'
+summary: Well rounded full-stack software developer with a focus on web
+
 ---
 
-Sage Raflik
-===========
-
-Well rounded full-stack software developer with a focus on web
-
-> <raflik.sage@gmail.com> <br/>
-> [github.com/neonfuz](https://github.com/neonfuz) <br/>
-> (707) 362 - 5705 <br/>
-> Milwaukee WI
 
 Skills
 ----

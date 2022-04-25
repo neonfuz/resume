@@ -1,6 +1,11 @@
 <script>
  import 'milligram';
- export let title = '';
+ export let title;
+ export let summary;
+ export let email;
+ export let github;
+ export let phone;
+ export let location;
 </script>
 
 <svelte:head>
@@ -10,54 +15,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 
+<div class="Page">
+    <heading>
 <div>
+        <h1>
+            {title}
+        </h1>
+        <p>
+            {summary}
+        </p>
+</div>
+        <ul>
+            <li><a href="mailto:{email}">{email}</a></li>
+            <li><a href="{github[0]}">{github[1]}</a></li>
+            <li>{phone}</li>
+            <li>{location}</li>
+        </ul>
+    </heading>
     <slot></slot>
 </div>
 
 <style>
- div > :global(section) {
-     display: grid;
-     grid-template-columns: 2fr 1fr;
-     grid-template-rows: repeat(1fr);
-     grid-template-areas:
-         "main sidebar"
-         "footer footer";
+ heading {
+     display: flex;
+     justify-content: space-between;
  }
- div :global(blockquote) {
-     grid-area: sidebar;
+ .Page > :global(section) {
+     display: flex;
+     flex-direction: column;
+ }
+ .Page :global(blockquote) {
      text-align: right;
      margin: 0;
      border: none;
  }
- div :global(section section) {
-     grid-column-start: main;
-     grid-column-end: main;
+ .Page :global(section) {
  }
- div :global(section section:nth-child(4)) {
-     grid-column-start: sidebar;
-     grid-column-end: sidebar;
+ .Page :global(section:nth-child(2)) {
      text-align: right;
+     float: right;
  }
- div :global(section section:nth-child(5)) {
-     grid-row-start: 3;
+ heading ul,
+ .Page :global(section:nth-child(2) ul) {
+     text-align: right;
+     list-style: none;
  }
- div :global(section section:nth-child(6)) {
-     grid-column-end: footer;
+ heading,
+ .Page :global(section:nth-child(2)) {
+     list-style: none;
  }
- div :global(:is(p, li)) {
+ .Page :global(:is(p, li)) {
      margin-bottom: .2em;
  }
- div :global(ul) {
+ .Page :global(ul) {
      margin-bottom: 1.5rem;
  }
- div {
+ .Page {
      width: 8.5in;
      min-height: 11in;
      border: 1px solid transparent;
      padding: 1cm;
  }
  @media screen {
-     div {
+     .Page {
          margin: 4rem auto;
          border: #ddd solid 2px;
          box-shadow: 0 5px 20px #dddd;
