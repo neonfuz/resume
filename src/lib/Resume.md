@@ -22,7 +22,7 @@ location: Milwaukee WI
 * MongoDB, CouchDB, Redis
 * Arweave
 
-### Systems
+### Application
 * C, C++, Rust, GDB
 * Java, C#, Python
 * Unity3D, Android
@@ -30,14 +30,15 @@ location: Milwaukee WI
 
 ### Sysadmin
 * 15+ years Linux experience
-* AWS, S3, Docker, git
+* AWS, S3
+* Docker, git
 
 </section>
 
 Experience
 ----------
 
-**Freelance Development** | React, jQuery, Gatsby, JAM stack | 2016 - 2022
+**Freelance Development** | React, Gatsby, JAM stack, netlify, jQuery | 2016 - 2022
 - Worked directly with clients to create business websites starting from
   discussion around core business concerns. Optimized SEO to reach top Google
   result for key searches.
