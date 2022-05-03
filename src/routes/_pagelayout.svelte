@@ -50,14 +50,16 @@
      margin: 0;
      border: none;
  }
- .Page :global(section:nth-child(2)) {
-     float: right;
+ .Page > :global(section:nth-child(2)) {
+     display: grid;
+     width: 100%;
+     grid-auto-columns: 1fr;
+     grid-auto-flow: column;
  }
- .Page :global(ul) {
-     list-style: none;
+ .Page > :global(section:nth-child(2) section) {
+     grid-row-start: 2;
  }
- heading,
- .Page :global(section:nth-child(2)) {
+ .Page :global(li) {
      list-style: none;
  }
  .Page :global(:is(p, li)) {
