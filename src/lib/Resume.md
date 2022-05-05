@@ -9,7 +9,7 @@ location: Milwaukee WI
 ---
 
 
-<section>
+<section id="skills">
 
 ### Frontend
 * React, Angular, Svelte
@@ -19,8 +19,8 @@ location: Milwaukee WI
 
 ### Backend
 * Node, Deno, Python
-* MongoDB, CouchDB, Redis
-* Arweave
+* MongoDB, CouchDB
+* PostgreSQL, Redis
 
 ### Application
 * C, C++, Rust, GDB
@@ -29,8 +29,8 @@ location: Milwaukee WI
 * Nix, Haskell
 
 ### Sysadmin
-* 15+ years Linux experience
-* AWS, S3
+* 15 years linux
+* AWS, S3, SSH
 * Docker, git
 
 </section>
@@ -38,29 +38,29 @@ location: Milwaukee WI
 Experience
 ----------
 
-**Freelance Development** | React, Gatsby, JAM stack, netlify, jQuery | 2016 - 2022
+**Freelance Development** | React, Gatsby, JAM stack, Netlify, jQuery | 2016 - 2022
 - Worked directly with clients to create business websites starting from
   discussion around core business concerns. Optimized SEO to reach top Google
   result for key searches.
 
-**Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2021
-- Lead Full-Stack Developer for web based accounting software
-- Designed and implemented new features, trained other developers
+**Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2018, 2019 - 2021
+- Lead Full-Stack Developer for web based accounting software.
+- Migrated monolithic application from AWS Ubuntu 16.04 to a reproducible docker container.
+- Designed and implemented new features, oriented new developers.
+
 
 **Eden Farms** | React, CouchDB, Puppeteer | 2018 - 2019
 - Developed and maintained Seed to Sale software used throughout regulatory
   lifecycle
 - Automated data entry to county regulated system
 
-**911 Enhanced** | Android, Java, C++ | 2014
-- Developed application to send location information to 911 dispatchers,
-  presented at Launch Milwaukee
+**911 Enhanced** | Android, Java, C++ (audio) | 2014
+- Developed application to improve information sent to 911 dispatchers as part
+  of the NG911 initiative. Application sent location to TTY machines via baudot
+  code. Presented at Launch Milwaukee.
 
 Education
 ---------
-
-**University of Wisconsin** | Computer Science | 2016-2018
-- Studied Computer Science, focus on Java
 
 **Milwaukee Area Technical College** | Video Game Developer | 2014-2016
 - Learned Unity3D, C# development, and practices like code testing, Agile, Scrum, and Kanban

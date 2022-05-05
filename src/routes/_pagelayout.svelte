@@ -50,13 +50,13 @@
      margin: 0;
      border: none;
  }
- .Page > :global(section:nth-child(2)) {
+ .Page > :global(#skills) {
      display: grid;
      width: 100%;
      grid-auto-columns: 1fr;
      grid-auto-flow: column;
  }
- .Page > :global(section:nth-child(2) section) {
+ .Page > :global(#skills section) {
      grid-row-start: 2;
  }
  .Page :global(li) {
