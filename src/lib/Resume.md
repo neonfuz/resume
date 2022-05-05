@@ -1,6 +1,6 @@
 ---
 title: Sage Raflik
-summary: Well rounded full-stack software developer with a focus on frontend
+summary: Full-stack software developer with a focus on frontend
 email: raflik.sage@gmail.com
 github: ['https://github.com/neonfuz', 'github.com/neonfuz']
 website: ['https://neonfuz.xyz', 'neonfuz.xyz']
@@ -51,8 +51,8 @@ Experience
 
 **Eden Farms** | React, CouchDB, Puppeteer | 2018 - 2019
 - Developed and maintained Seed to Sale software used throughout regulatory
-  lifecycle
-- Automated data entry to county regulated system
+  lifecycle.
+- Automated data entry to county regulated system.
 
 **911 Enhanced** | Android, Java, C++ (audio) | 2014
 - Developed application to improve information sent to 911 dispatchers as part
@@ -63,5 +63,5 @@ Education
 ---------
 
 **Milwaukee Area Technical College** | Video Game Developer | 2014-2016
-- Learned Unity3D, C# development, and practices like code testing, Agile, Scrum, and Kanban
-- Experienced working collaboratively with 40+ people on single project
+- Learned Unity3D, C# development, and practices like code testing, Agile, Scrum, and Kanban.
+- Experienced working collaboratively with 40+ people on single project.
