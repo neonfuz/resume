@@ -5,6 +5,6 @@ source.
 
 Current PDF: [/docs/resume.pdf](/docs/resume.pdf)
 
-Markdown Source: [/src/Resume.md](https://github.com/neonfuz/resume/blob/master/src/Resume.md?plain=1)
+Markdown Source: [/src/Resume.md](https://github.com/neonfuz/resume/blob/main/src/Resume.md?plain=1)
 
-Template Source: [/src/template.svelte](https://github.com/neonfuz/resume/blob/master/src/template.svelte)
+Template Source: [/src/template.svelte](https://github.com/neonfuz/resume/blob/main/src/template.svelte)
