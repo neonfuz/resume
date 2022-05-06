@@ -9,7 +9,7 @@ location: Milwaukee WI
 ---
 
 
-<section id="skills">
+## Skills
 
 ### Frontend
 * React, Angular, Svelte
@@ -32,8 +32,6 @@ location: Milwaukee WI
 * 15 years linux
 * AWS, S3, SSH
 * Docker, git
-
-</section>
 
 Experience
 ----------

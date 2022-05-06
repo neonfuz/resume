@@ -50,14 +50,15 @@
      margin: 0;
      border: none;
  }
- .Page > :global(#skills) {
+ /* Styling for skills section */
+ .Page > :global(section:nth-child(2)) {
      display: grid;
      width: 100%;
      grid-auto-columns: 1fr;
      grid-auto-flow: column;
  }
- .Page > :global(#skills section) {
-     grid-row-start: 2;
+ .Page > :global(section:nth-child(2) h2) {
+     display: none;
  }
  .Page :global(li) {
      list-style: none;
