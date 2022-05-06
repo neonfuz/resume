@@ -1,5 +1,5 @@
 <script>
- import Resume from '$lib/Resume.md';
+ import Resume from '../Resume.md';
 </script>
 
 <Resume />

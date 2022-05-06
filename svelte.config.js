@@ -12,7 +12,7 @@ const config = {
     preprocess: [
         mdsvex({
             extensions: ['.md'],
-            layout: './src/routes/_pagelayout.svelte',
+            layout: './src/template.svelte',
             remarkPlugins: [
                 sectionize,
             ],

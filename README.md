@@ -1,7 +1,10 @@
 # Sage's Resume
 
-This project is used to generate a PDF and Svelte Component of my current resume.
+This project generates my resume as a PDF and Svelte component from a Markdown
+source.
 
 Current PDF: [/docs/resume.pdf](/docs/resume.pdf)
 
-Markdown source: [/src/lib/Resume.md](https://github.com/neonfuz/resume/blob/master/src/lib/Resume.md?plain=1)
+Markdown Source: [/src/Resume.md](https://github.com/neonfuz/resume/blob/master/src/Resume.md?plain=1)
+
+Template Source: [/src/template.svelte](https://github.com/neonfuz/resume/blob/master/src/template.svelte)
