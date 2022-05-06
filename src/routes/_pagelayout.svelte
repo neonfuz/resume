@@ -74,13 +74,13 @@
      min-height: 11in;
      border: 1px solid transparent;
      padding: 1cm;
-     padding-bottom: 0; /* Stop generating pg2 */
  }
  @media screen {
      .Page {
          margin: 4rem auto;
          border: #ddd solid 2px;
          box-shadow: 0 5px 20px #dddd;
+         padding-bottom: 0; /* Stop generating pg2 */
      }
  }
  @page {
