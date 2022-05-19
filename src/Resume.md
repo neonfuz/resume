@@ -19,8 +19,8 @@ location: Milwaukee WI
 
 ### Backend
 * Node, Deno, Python
-* MongoDB, CouchDB
-* PostgreSQL, Redis
+* PostgreSQL, SQLite
+* MongoDB, CouchDB, Redis
 
 ### Application
 * C, C++, Rust, GDB
@@ -33,19 +33,17 @@ location: Milwaukee WI
 * AWS, S3, SSH
 * Docker, git
 
-Experience
-----------
+# Experience
 
-**Freelance Development** | React, Gatsby, JAM stack, Netlify, jQuery | 2016 - 2022
-- Worked directly with clients to create business websites starting from
-  discussion around core business concerns. Optimized SEO to reach top Google
-  result for key searches.
-
-**Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2018, 2019 - 2021
+**Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2018, 2019 - 2022
 - Lead Full-Stack Developer for web based accounting software.
 - Migrated monolithic application from AWS Ubuntu 16.04 to a reproducible docker container.
 - Designed and implemented new features, oriented new developers.
 
+**Freelance Development** | React, Gatsby, JAM stack, Netlify, jQuery | 2016 - 2021
+- Worked directly with clients to create business websites starting from
+  discussion around core business concerns. Optimized SEO to reach top Google
+  result for key searches.
 
 **Eden Farms** | React, CouchDB, Puppeteer | 2018 - 2019
 - Developed and maintained Seed to Sale software used throughout regulatory
@@ -54,7 +52,7 @@ Experience
 
 **911 Enhanced** | Android, Java, C++ (audio) | 2014
 - Developed application to improve information sent to 911 dispatchers as part
-  of the NG911 initiative. Application sent location to TTY machines via baudot
+  of the NG911 initiative. Application sent location to TTY machines via Baudot
   code. Presented at Launch Milwaukee.
 
 Education
