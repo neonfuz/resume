@@ -38,17 +38,17 @@ location: Milwaukee WI
 **Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2018, 2019 - 2022
 - Lead Full-Stack Developer for web based accounting software.
 - Migrated monolithic application from AWS Ubuntu 16.04 to a reproducible docker container.
-- Designed and implemented new features, oriented new developers.
-
-**Freelance Development** | React, Gatsby, JAM stack, Netlify, jQuery | 2016 - 2021
-- Worked directly with clients to create business websites starting from
-  discussion around core business concerns. Optimized SEO to reach top Google
-  result for key searches.
+- Designed and implemented new features, trained new developers.
 
 **Eden Farms** | React, CouchDB, Puppeteer | 2018 - 2019
 - Developed and maintained Seed to Sale software used throughout regulatory
   lifecycle.
 - Automated data entry to county regulated system.
+
+**Freelance Development** | React, Gatsby, JAM stack, Netlify, jQuery | 2016 - 2021
+- Worked directly with clients to create business websites starting from
+  discussion around core business concerns. Optimized SEO to reach top Google
+  result for key searches.
 
 **911 Enhanced** | Android, Java, C++ (audio) | 2014
 - Developed application to improve information sent to 911 dispatchers as part
