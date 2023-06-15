@@ -89,5 +89,6 @@
  }
  :global(body) {
      margin: 0;
+     line-height: 1.3em;
  }
 </style>

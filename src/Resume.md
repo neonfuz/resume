@@ -1,6 +1,6 @@
 ---
 title: Sage Raflik
-summary: Full-stack software developer with a focus on frontend
+summary: Full-stack software developer
 email: raflik.sage@gmail.com
 github: ['https://github.com/neonfuz', 'github.com/neonfuz']
 website: ['https://neonfuz.xyz', 'neonfuz.xyz']
@@ -15,18 +15,16 @@ location: Milwaukee WI
 * React, Angular, Svelte
 * HTML, CSS, SVG
 * Javascript, Typescript
-* Webpack, Rollup, Grunt
 
 ### Backend
-* Node, Deno, Python
+* Next.js, Node, Deno
 * PostgreSQL, SQLite
-* MongoDB, CouchDB, Redis
+* MongoDB, CouchDB
 
 ### Application
 * C, C++, Rust, GDB
 * Java, C#, Python
 * Unity3D, Android
-* Nix, Haskell
 
 ### Sysadmin
 * 15 years linux
@@ -35,10 +33,10 @@ location: Milwaukee WI
 
 # Experience
 
-**Geno.Me** | React, MongoDB, Express, Node | Nov 2022 - Present
+**Geno.Me** | Next.js, React, MongoDB, Express, Node | Nov 2022 - Present
 - Full stack developer for biomedical techonlogy startup responsible for frontend of application.
-- Designed and implemented core features such as an interface to search
-  anonymized healthcare data, and two factor authentication frontend.
+- Designed and implemented core user interfaces for a healthcare data exchange platform including
+  a healtcare data search interface, and two factor authentication interface.
 
 **Warhog Financials** | MongoDB, Express, Angular, Node | 2015 - 2018, 2019 - 2022
 - Lead Full-Stack Developer for web based accounting software.
@@ -55,17 +53,9 @@ location: Milwaukee WI
   discussion around core business concerns. Optimized SEO to reach top Google
   result for key searches.
 
-**911 Enhanced** | Android, Java, C++ (audio) | 2014
-- Developed application to improve information sent to 911 dispatchers as part
-  of the NG911 initiative. Application sent location to TTY machines via Baudot
-  code. Presented at Launch Milwaukee.
-
 Education
 ---------
 
-**University of Wisconsin - Milwaukee** | Software Development | 2016-2018
-- Took classes on Java development, Calculus, and the Japanese language
-
-**Milwaukee Area Technical College** | Video Game Developer | 2014-2016
+**Milwaukee Area Technical College** | Video Game Development | 2014-2016
 - Learned Unity3D, C# development, and practices like code testing, Agile, Scrum, and Kanban.
 - Experienced working collaboratively with 40+ people on single project.
