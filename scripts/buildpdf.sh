@@ -12,4 +12,4 @@ sleep 3
     --run-all-compositor-stages-before-draw \
     --font-render-hinting=none \
     --print-to-pdf=docs/resume.pdf http://localhost:5173
-kill $!
+kill $SERVER_PID

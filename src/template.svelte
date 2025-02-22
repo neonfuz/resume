@@ -41,6 +41,9 @@
  heading ul {
      text-align: right;
  }
+ .Page {
+    line-height: 1.4;
+ }
  .Page > :global(section) {
      display: flex;
      flex-direction: column;
@@ -61,10 +64,10 @@
      display: none;
  }
  .Page :global(li) {
-     list-style: none;
+     /* list-style: none; */
  }
  .Page :global(:is(p, li)) {
-     margin-bottom: .2em;
+     margin-bottom: 0;
  }
  .Page :global(ul) {
      margin-bottom: 1.4rem;
@@ -87,8 +90,8 @@
      size: 8.5in 11in;
      margin: 0;
  }
- :global(body) {
+ :global(:root) {
      margin: 0;
-     line-height: 1.3em;
+     font-size: 7pt;
  }
 </style>
